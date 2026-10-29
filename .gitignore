@@ -1,0 +1,12 @@
+# Never commit API keys or local secrets
+.env
+.env.*
+
+# Allow safe example configuration
+!.env.example
+
+# Installed dependencies
+node_modules/
+
+# macOS metadata
+.DS_Store
